@@ -23,7 +23,7 @@ public class Test_editRecipe_RecipeBookTest {
 	 * TestScenarioID: TC2
 	*/
 	@Test 
-	public void testDeleteRecipeNull()  {
+	public void testEditRecipeNull()  {
 		RecipeBook objRecipeBook = new RecipeBook();
 		assertTrue(objRecipeBook.editRecipe(5, new Recipe())==null);
 	}
@@ -31,7 +31,7 @@ public class Test_editRecipe_RecipeBookTest {
 	 * TestScenarioID: TC3
 	*/
 	@Test 
-	public void testDeleteRecipe()  {
+	public void testEditRecipe()  {
 		String expected = "Dump coffe";
 		String actual = "";
 		RecipeBook objRecipeBook = new RecipeBook();
